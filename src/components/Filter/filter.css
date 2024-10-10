@@ -1,0 +1,112 @@
+.filter-block {
+    padding: 1.7rem 1.8rem;
+    box-sizing: border-box;
+    user-select: none;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.filter-block h3 {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+}
+
+.filter-block h3 img {
+    width: 1rem;
+    height: auto;
+}
+
+.filter-input-group {
+    gap: 0.6rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.filter-input-group label {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #303030;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.filter-input-group label img {
+    cursor: pointer;
+    width: 1vh;
+    height: auto;
+}
+.range-input-con {
+    margin-top: 1rem;
+}
+.number-input-con {
+    display: flex;
+    justify-content: space-between;
+}
+.number-input {
+    border: none;
+    border: 1px solid #e9e9e9;
+    width: 5rem;
+    padding: 0.7rem 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.number-input::placeholder {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #303030;
+}
+
+.range-input {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.search {
+    padding: 0.75rem;
+    border-radius: 0.2rem;
+    border: 1px solid #e9e9e9;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+.search::placeholder {
+    color: #818181;
+}
+
+.slider {
+    margin-top: 2vh;
+    width: 100%;
+    height: 0.4vh;
+    background: #f3f3f3ed;
+}
+
+.slider .thumb {
+    top: -0.3vh;
+    width: 1vh;
+    height: 1vh;
+    background: #ffffff;
+    outline: none;
+    border-radius: 50%;
+    border: 2px solid #0075ff;
+}
+.slider .track-1 {
+    background: #ffe500;
+    height: 100%;
+}

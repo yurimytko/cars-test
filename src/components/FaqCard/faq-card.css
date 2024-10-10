@@ -1,0 +1,49 @@
+.faq-card {
+    margin-top: 1rem;
+    user-select: none;
+}
+.card-point {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 1.9rem 6rem;
+    border-radius: 1rem;
+}
+.card-point h3 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+}
+
+.card-point span {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+}
+
+.point-descr {
+    padding: 1.6rem 6rem;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #818181;
+}
+
+@media screen and (max-width: 748px) {
+    .card-point {
+        padding: 1.9rem 4vh;
+    }
+    .card-point h3 {
+        width: 80%;
+    }
+}

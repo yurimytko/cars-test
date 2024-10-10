@@ -1,0 +1,46 @@
+.catalog-header {
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh;
+}
+
+.catalog-header img {
+    width: 8vw;
+    height: auto;
+}
+
+.catalog-header button {
+    border: none;
+    background: rgba(0, 118, 254, 1);
+    border-radius: 1vh;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 1.5vh;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    height: 3.75rem;
+    width: 10.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.catalog-header button img {
+    width: 1rem;
+    height: auto;
+}
+
+@media screen and (max-width: 748px) {
+    .catalog-header button {
+        height: 7vh;
+        width: 36vw;
+    }
+    .catalog-header img {
+        width: 35vw;
+        height: auto;
+    }
+}

@@ -1,0 +1,33 @@
+.price-block {
+    margin-top: 6rem;
+    width: 100%;
+    background: #f9f9f9;
+    border-radius: 1.8rem;
+    padding: 4rem 4rem;
+    box-sizing: border-box;
+}
+
+.price-heading {
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: #303030;
+}
+
+.palns-con {
+    margin-top: 2.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 13rem;
+    align-items: center;
+    padding: 0 3.1rem;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 748px) {
+    .palns-con {
+        overflow: hidden;
+    }
+}

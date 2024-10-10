@@ -1,0 +1,450 @@
+.catalog-slug-main {
+    padding: 4vh 0;
+    width: 100%;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.car-name {
+    width: 67%;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    color: #303030;
+}
+
+.imgs-con {
+    width: 45vw;
+}
+
+.slug-top {
+    margin-top: 3vh;
+    display: flex;
+    gap: 4vw;
+    flex-wrap: wrap;
+}
+
+.img-preview img {
+    border-radius: 1vh;
+    width: 45vw;
+    height: auto;
+}
+
+.image-carousel {
+    gap: 1vw;
+    margin-top: 2vh;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-carousel img {
+    min-width: 7.2vw;
+    height: 13vh;
+    border-radius: 1vh;
+}
+
+.price-con {
+    padding: 2vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 18vw;
+    gap: 4vh;
+}
+
+.date-block {
+    background: #f7f7f7;
+    border-radius: 1vh;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 0.4vw;
+    font-family: Montserrat;
+    font-size: 1.7vh;
+    font-weight: 400;
+    color: #818181;
+}
+
+.date img {
+    width: 1vw;
+    height: auto;
+}
+
+.price {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    color: #0075ff;
+}
+.current-value {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+
+    color: #818181;
+}
+
+.car-btn-group {
+    display: flex;
+    gap: 1vw;
+}
+
+.car-btn-group button {
+    cursor: pointer;
+    border-radius: 1vh;
+    border: none;
+    width: 7vw;
+    height: 5vh;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+}
+
+.buy {
+    background: #ffe600;
+    color: #303030;
+}
+
+.buy-now {
+    background: #0075ff;
+    color: #ffffff;
+}
+
+.info-con {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 16vw;
+}
+.damage-imfo {
+    border-radius: 1vh;
+    width: 18vw;
+    background: white;
+    height: 24vh;
+}
+
+.damage-imfo h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+    padding: 2vh;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.damage-imfo ul {
+    width: 100%;
+    list-style: none;
+    padding: 2vh 1.3vw 4vh 1.3vw;
+}
+
+.damage-imfo ul li {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #818181;
+}
+
+.damage-point-value {
+    color: #303030;
+    font-weight: 500;
+}
+
+.car-info-block {
+    margin-top: 2vh;
+    display: flex;
+    gap: 4vw;
+}
+
+.auction-info {
+    width: 45vw;
+    border-radius: 1vh;
+    background: #ffffff;
+}
+
+.auction-info h3 {
+    padding: 2vh;
+    border-bottom: 1px solid #e9e9e9;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+}
+
+.auction-info ul {
+    width: 70%;
+    list-style: none;
+    padding: 2vh 1.3vw;
+}
+
+.auction-info ul li {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #818181;
+}
+
+.vehicle-info {
+    width: 18vw;
+    border-radius: 1vh;
+    background: #ffffff;
+}
+
+.vehicle-info h3 {
+    padding: 2vh;
+    border-bottom: 1px solid #e9e9e9;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+}
+
+.vehicle-info ul {
+    width: 100%;
+    list-style: none;
+    padding: 2vh 1.3vw;
+}
+
+.vehicle-info ul li {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #818181;
+}
+
+.description {
+    margin-top: 2vh;
+    width: 67vw;
+    border-radius: 1vh;
+    padding: 2vh;
+    background: #ffffff;
+}
+
+.description h3 {
+    padding: 1vh 0;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+    border-bottom: 1px solid #e9e9e9;
+}
+.descr-text {
+    margin-top: 2vh;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #818181;
+}
+
+.need-help {
+    border-radius: 1vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../../assets/abs-back.png);
+    background-size: cover;
+    width: 67vw;
+    height: 34vh;
+    padding: 0 5vw;
+    box-sizing: border-box;
+}
+
+.help-heading {
+    width: 20vw;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #303030;
+}
+
+.help-form-btn {
+    margin-top: 2vh;
+    background: #eb1922;
+    border-radius: 1vh;
+    border: none;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    height: 5vh;
+    width: 7vw;
+    color: white;
+}
+.red-text {
+    color: #eb1922;
+}
+
+.need-help img {
+    width: 30vw;
+    height: auto;
+}
+
+@media screen and (max-width: 748px) {
+    .catalog-slug-main {
+        width: 100%;
+        padding: 3vh;
+        box-sizing: border-box;
+    }
+    .img-preview img {
+        width: 100%;
+    }
+    .image-carousel {
+        width: 100%;
+        gap: 4vw;
+    }
+    .image-carousel img {
+        min-width: 26vw;
+        height: 9vh;
+        border-radius: 1vh;
+    }
+    .car-name {
+        width: 100%;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: left;
+    }
+    .slug-top {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .imgs-con {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .price-con {
+        width: 100%;
+        gap: 2vh;
+    }
+    .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .car-btn-group {
+        gap: 4vw;
+    }
+    .car-btn-group button {
+        width: 30vw;
+        height: 7vh;
+    }
+    .date-block {
+        padding: 4vh;
+        width: 100%;
+    }
+    .date img {
+        width: 7vw;
+        height: auto;
+    }
+    .info-con {
+        width: 100%;
+    }
+
+    .damage-imfo {
+        width: 100%;
+    }
+    .car-info-block {
+        flex-direction: column;
+        width: 100%;
+    }
+    .auction-info {
+        width: 100%;
+    }
+    .auction-info ul {
+        width: 100%;
+    }
+    .vehicle-info {
+        width: 100%;
+    }
+    .description {
+        width: 100%;
+    }
+    .need-help {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        padding: 5vh 0;
+    }
+    .help-heading {
+        width: 100%;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+    }
+    .help-form-btn {
+        width: 40vw;
+    }
+    .need-help img {
+        margin-top: 3vh;
+        width: 120vw;
+        height: auto;
+    }
+}

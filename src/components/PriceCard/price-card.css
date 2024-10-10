@@ -1,0 +1,84 @@
+.plan-card {
+    width: 18.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-card h3 {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    width: 100%;
+    background: #0076fe;
+    border-radius: 0.7rem;
+    color: white;
+    padding: 1rem 0;
+}
+
+.price {
+    margin-top: 1.6rem;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: center;
+    color: #303030;
+}
+
+.per-month {
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #818181;
+}
+.plan-card ul {
+    width: 100%;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.plan-card ul li {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.plan-point {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #818181;
+}
+
+.plan-point-value {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+}
+
+.plan-card button {
+    margin-top: 2.9rem;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #303030;
+    background: #ffe600;
+    height: 4.3rem;
+    width: 12.5rem;
+    border: none;
+    border-radius: 1rem;
+}

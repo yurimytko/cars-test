@@ -1,19 +1,40 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-body{
-  overflow-x: hidden;
+body {
+    overflow-x: hidden;
 }
 
-.main_section{
-  padding: 0 7rem;
-  box-sizing: border-box;
+.main_section {
+    padding: 0 7rem;
+    box-sizing: border-box;
+}
+
+.main-footer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background: #f9f9f9;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #818181;
+}
+
+@media screen and (max-width: 748px) {
+    .main_section {
+        padding: 0 5vw;
+        box-sizing: border-box;
+    }
 }

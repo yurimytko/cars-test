@@ -1,0 +1,116 @@
+.contact-form-block {
+    width: 100%;
+    padding: 4rem 0 0 0;
+}
+.contact-from-heading {
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: #303030;
+}
+
+.form-container {
+    margin-top: 4rem;
+    background: #0076fe;
+    width: 100%;
+    border-radius: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rem 0 0;
+}
+
+.form-container img {
+    width: 53rem;
+    height: auto;
+}
+.form-container form {
+    width: 29rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.from-heading {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+.input-group {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.contact-input {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    background: #0076fe;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+.contact-input::placeholder {
+    color: #d2e7ff;
+}
+
+.submit-form {
+    margin-top: 4rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+    background: #ffe600;
+    border: none;
+    height: 4rem;
+    width: 16.25rem;
+}
+
+.submit-form img {
+    width: 1rem;
+}
+
+@media screen and (max-width: 748px) {
+    .form-container img {
+        display: none;
+    }
+    .form-container {
+        padding: 4vh 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .from-heading {
+        width: 70%;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+    }
+    .contact-input {
+        width: 80%;
+    }
+    .input-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

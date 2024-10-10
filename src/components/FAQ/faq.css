@@ -1,0 +1,14 @@
+.faq-block {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.faq-heading {
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: #303030;
+    margin-bottom: 2.6rem;
+}

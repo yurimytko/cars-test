@@ -1,0 +1,202 @@
+.car-card {
+    margin-bottom: 1rem;
+    width: 80%;
+    border-radius: 0.6rem;
+    background: #ffffff;
+    padding: 2vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-img {
+    border-radius: 1vh;
+    width: 18vw;
+    height: auto;
+}
+
+.info-block {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-block h2 {
+    font-family: Montserrat;
+    font-size: 2.5vh;
+    font-weight: 600;
+    color: #303030;
+}
+
+.car-info {
+    display: flex;
+    gap: 2vw;
+}
+.car-info span {
+    display: block;
+    margin-top: 2vh;
+    font-family: Montserrat;
+    font-size: 1.7vh;
+    font-weight: 400;
+    color: #818181;
+}
+
+.car-info span p {
+    font-weight: 500;
+    color: #303030;
+}
+
+.buy-con {
+    padding: 4vh;
+    border-left: 2px solid #e9e9e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.date-car {
+    display: flex;
+    align-items: center;
+    gap: 0.4vw;
+    font-family: Montserrat;
+    font-size: 1.7vh;
+    font-weight: 400;
+    color: #818181;
+}
+
+.date-car img {
+    width: 1vw;
+    height: auto;
+}
+.car-price {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    color: #0075ff;
+}
+.current-value {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #818181;
+}
+
+.car-card-btn-group {
+    display: flex;
+    gap: 1vw;
+}
+
+.car-card-btn-group button {
+    cursor: pointer;
+    border-radius: 1vh;
+    border: none;
+    width: 5vw;
+    height: 5vh;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+}
+
+.buy {
+    border-radius: 1vh;
+    width: 5vw;
+    height: 5vh;
+    background: #ffe600;
+    color: #303030;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-now {
+    background: #0075ff;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 748px) {
+    .car-card {
+        flex-direction: column;
+        width: 100%;
+    }
+    .car-img {
+        width: 100%;
+    }
+    .car-info {
+        justify-content: space-around;
+        padding: 2vh;
+    }
+    .info-block {
+        width: 100%;
+    }
+    .info-block h2 {
+        margin-top: 2vh;
+        width: 100%;
+    }
+    .buy-con {
+        padding: 2vh 0;
+        border-top: 2px solid #e9e9e9;
+        border-left: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2vh;
+    }
+    .date-car {
+        display: none;
+    }
+
+    .price {
+        font-size: 21px;
+    }
+    .current-value {
+        font-size: 13px;
+
+        color: #818181;
+    }
+    .car-card-btn-group {
+        gap: 4vw;
+    }
+    .car-card-btn-group button {
+        cursor: pointer;
+        border-radius: 1vh;
+        border: none;
+        width: 25vw;
+        height: 6vh;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: center;
+    }
+    .buy {
+        border-radius: 1vh;
+        width: 25vw;
+        height: 6vh;
+        background: #ffe600;
+        color: #303030;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

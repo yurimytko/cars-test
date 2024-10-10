@@ -1,0 +1,58 @@
+.what-is-it {
+    margin-top: 6rem;
+    width: 100%;
+}
+
+.what-is-it h2 {
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: #303030;
+}
+.what-is-ti-con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18rem;
+    margin-top: 4rem;
+}
+
+.what-is-it-items {
+    width: 16rem;
+}
+
+.what-is-it-items img {
+    width: 5rem;
+}
+
+.what-is-it-items h3 {
+    margin-top: 0.4rem;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    color: #303030;
+}
+
+.what-is-it-items p {
+    margin-top: 0.6rem;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #818181;
+}
+
+@media screen and (max-width: 748px) {
+    .what-is-ti-con {
+        flex-direction: column;
+        gap: 6vh;
+    }
+}
